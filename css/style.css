@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(#f0f2f0, #000c40);
+}
+
+.card-image {
+  height: 320px;
+  overflow: hidden;
+}
+
+.card .card-title {
+  font-weight: 700;
+  color: #6bbcff;
+}
+
+.brand-logo img {
+  height: 56px;
+  margin-top: 0.5vh;
+}
+
+@media only screen and (max-width: 480px) {
+  .brand-logo img {
+    margin-top: 0vh;
+  }
+}
