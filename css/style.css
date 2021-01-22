@@ -1,15 +1,47 @@
 body {
-  background: linear-gradient(#f0f2f0, #000c40);
+  background: #95928e;
+}
+
+nav {
+  background: #f3972e;
+}
+
+nav ul a {
+  color: #8370bd;
+  font-weight: 800;
+}
+
+.sidenav-trigger {
+  color: #7157be;
+}
+
+.card {
+  box-shadow: 4px 4px #706d6a;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .card-image {
   height: 320px;
   overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .card .card-title {
   font-weight: 700;
-  color: #6bbcff;
+  color: #8370bd;
+}
+
+.card-reveal a {
+  color: #46ccc3;
+  font-weight: 500;
 }
 
 .brand-logo img {
